@@ -1,19 +1,13 @@
 package view;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
 
-import javax.swing.JFrame;
+import java.awt.EventQueue;
 import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 
 public class FormsView extends Template {
-
+	
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -26,10 +20,6 @@ public class FormsView extends Template {
 			}
 		});
 	}
-
-	/**
-	 * Create the frame.
-	 */
 	public FormsView() {
 		super();
 	}
